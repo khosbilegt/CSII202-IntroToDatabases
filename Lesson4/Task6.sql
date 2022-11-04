@@ -1,0 +1,1 @@
+SELECT AVG(ALL salary) FROM Staff;

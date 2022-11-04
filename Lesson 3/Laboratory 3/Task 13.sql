@@ -1,1 +1,0 @@
-SELECT ownerNo, staffNo FROM PropertyForRent

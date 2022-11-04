@@ -1,0 +1,2 @@
+SELECT concat(g.guestName, " ", h.hotelName, "зочид буудлын ", r.price, " үнэтэй ", r.roomNo, " өрөөнд ", b.dateFrom, " буудаллажээ.") AS concat FROM Guest g, Booking b, Hotel h, Room r
+WHERE b.hotelNo = h.hotelNo AND b.guestNo = g.guestNo AND r.hotelNo = b.hotelNo AND b.roomNo = r.roomNo

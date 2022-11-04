@@ -1,3 +1,0 @@
-CREATE TABLE HotelBackup AS 
-SELECT *
-FROM Hotel

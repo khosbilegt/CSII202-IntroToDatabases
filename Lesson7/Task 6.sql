@@ -1,0 +1,6 @@
+SELECT DISTINCT city FROM Branch
+
+UNION
+
+SELECT DISTINCT city FROM PropertyForRent
+
