@@ -1,0 +1,7 @@
+(SELECT telNo FROM CLIENT
+WHERE telNo LIKE "%22%")
+
+UNION
+
+(SELECT telNo FROM privateOwner
+WHERE telNo LIKE "%22%")

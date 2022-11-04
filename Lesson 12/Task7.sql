@@ -1,0 +1,1 @@
+DELETE FROM PropertyForRent WHERE staffNo = " "

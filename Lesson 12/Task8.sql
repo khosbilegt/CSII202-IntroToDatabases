@@ -1,0 +1,1 @@
+DELETE FROM PropertyForRent WHERE street = "16 Argyll St" AND propertyType = "House"

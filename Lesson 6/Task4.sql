@@ -1,0 +1,12 @@
+(SELECT fName FROM Staff
+ORDER BY fName)
+
+UNION ALL
+
+(SELECT fName FROM CLIENT
+ORDER BY fName)
+
+UNION ALL
+
+SELECT fName FROM privateOwner
+ORDER BY fName
